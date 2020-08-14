@@ -36,4 +36,9 @@
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
   padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.product > button:focus {
+  outline: none;
 }
