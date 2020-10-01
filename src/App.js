@@ -4,7 +4,7 @@ import Header from "./Component/Header/Header"
 import Home from "./Page/Home/Home"
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 import Checkout from "./Page/Checkout/Checkout"
-import Login from "./Component/Login/Login"
+
 
 function App() {
   return (
@@ -13,9 +13,7 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/login">
-            <Login/>
-          </Route>
+          
           <Route path="/logout">
             <h1>Logout Component</h1>
           </Route>
